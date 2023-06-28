@@ -1,0 +1,46 @@
+.Odontologo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 1rem;
+    background-color: #000000;
+    box-shadow: 0 0 0.5rem 0.25rem rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.Odontologo:hover {
+    transform: scale(1.05);
+}
+
+.Item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: #5a0404;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #630404;
+    color: #fff;
+}
+
+.Item:hover {
+    transform: scale(1.05);
+}
+
+.h1 {
+    font-size: 3.2rem;
+    font-weight: bold;
+    padding: 1rem;
+    width: fit-content;
+    margin: 1rem auto;
+    border-radius: 10px;
+    background-color: #220703;
+    color: #fff;
+}

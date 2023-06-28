@@ -1,0 +1,23 @@
+.Home {
+    display: grid;
+    grid-template-columns: repeat(5, 2fr);
+    grid-gap: 1rem;
+    
+}
+
+.h1 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    padding: 0.5rem;
+    width: fit-content;
+    margin: 0.3rem auto;
+    border-radius: 10px;
+    
+}
+
+.Home a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+}

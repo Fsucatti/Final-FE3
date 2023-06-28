@@ -1,0 +1,70 @@
+.Form{
+    align-content: center;
+    border-radius: 8px;
+    border: 1px solid #110707;
+    background-color: #5e0101;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.Form label{
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 5px;
+    padding: 5px;
+}
+.Form input{
+    border-radius: 8px;
+    border: 1px solid #110707;
+    padding: 5px;
+    margin: 5px;
+    width: 85%;
+}
+
+.Form button{
+    border-radius: 8px;
+    border: 1px solid #9e0404;
+    margin: 5px;
+    width: 85%;
+    background-color: #220703;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.Form button:hover{
+    background-color: #d80a7b;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.Form button:active{
+    background-color: #d80a7b;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.Form button:focus{
+    background-color: #d80a7b;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.Form:hover{
+    background-color: #d80a7b;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.Form p{
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 5px;
+    padding: 5px;
+}
