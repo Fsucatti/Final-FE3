@@ -5,6 +5,7 @@
     background-color: #5e0101;
     margin-left: 100px;
     margin-right: 100px;
+    box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.2); 
 }
 
 .Form label{
@@ -34,28 +35,25 @@
 }
 
 .Form button:hover{
-    background-color: #d80a7b;
+    background-color: #f18d8d;
     color: #fff;
     font-size: 1.2rem;
     font-weight: bold;
 }
 
 .Form button:active{
-    background-color: #d80a7b;
     color: #fff;
     font-size: 1.2rem;
     font-weight: bold;
 }
 
 .Form button:focus{
-    background-color: #d80a7b;
     color: #fff;
     font-size: 1.2rem;
     font-weight: bold;
 }
 
 .Form:hover{
-    background-color: #d80a7b;
     color: #fff;
     font-size: 1.2rem;
     font-weight: bold;

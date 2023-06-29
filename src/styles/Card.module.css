@@ -5,10 +5,11 @@
     background-color: #5e0101;
     box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.2); 
     width: 250px;
-    height: 250px;
+    height: 255px;
     margin: 0.5rem;
     padding: 1px ;
     text-align: center;
+    font-size: 1rem;
 }
 
 .Card p {
@@ -37,22 +38,22 @@
 }
 
 .Card:hover {
-    background-color: #df0404;
+    background-color: #f18d8d;
     color: #fff;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: bold;
 }
 
 .Card button:hover {
     color: #fff;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: bold;
     transform: scale(1.1);
 }
 
 .Card button:active {
     color: #fff;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: bold;
     transform: skew(20deg, 15deg)  scale(1.1);
 }

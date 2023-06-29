@@ -10,6 +10,7 @@
     background-color: #000000;
     box-shadow: 0 0 0.5rem 0.25rem rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease-in-out;
+    
 }
 
 .Odontologo:hover {
@@ -28,6 +29,8 @@
     transition: all 0.3s ease-in-out;
     border: 1px solid #630404;
     color: #fff;
+    border: 1px solid #110707;
+    font-size: 1.2rem;
 }
 
 .Item:hover {

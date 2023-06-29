@@ -18,7 +18,7 @@ const Home = () => {
   return (
    <main>
       <h1 className={styles.h1}>Odontólogos</h1>
-    <div className={styles.Home}>
+       <div className={styles.Home}>
        { 
        odontologos.map((odontologo) => (
             <Link to={`/dentist/${odontologo.id}`} key={odontologo.id}>

@@ -23,7 +23,7 @@ const Favoritos = () => {
                 favoritos.map((odontologo) => (
                     <div key={odontologo.id} className={styles.Favorito}>
                         <p>{odontologo.name}</p>
-                        <p>{odontologo.username}</p>
+                        <p><span>Username: </span> {odontologo.username}</p>
                         <img src="https://www.shutterstock.com/image-vector/personal-doctor-giving-advice-patient-600w-1723304248.jpg" alt="imagen" />
                         <button onClick={() => manejarEliminar(odontologo.id)}>Eliminar</button>
                     </div>

@@ -23,7 +23,7 @@ const Card = ({odontologo})  => {
         <div className={styles.Card}>
             <div>
                 <h2>{odontologo.name}</h2>
-                <p>{odontologo.username}</p>
+                <p><span>Username:</span> {odontologo.username}</p>
                 <img src="https://www.shutterstock.com/image-vector/personal-doctor-giving-advice-patient-600w-1723304248.jpg" alt="imagen" />
                 <button onClick={manejarFavorito}>
                     {esFavorito ? (<FaHeart 
