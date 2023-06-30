@@ -8,12 +8,6 @@ export default function GlobalProvider({children}) {
         JSON.parse(localStorage.getItem('favoritos')) || []
     );
 
-    /*async function getOdontologos() {
-
-        const response = await fetch('https://jsonplaceholder.typicode.com/users');
-        const data = await response.json();
-        setOdontologos(data);
-    }*/
 
     useEffect(() => {
         const getOdontologos = async () => {
@@ -60,22 +54,7 @@ export default function GlobalProvider({children}) {
         }
     }
 
-   /* const value = {
-        odontologos,
-        cambiarTema,
-        tema,
-        favoritos,
-        agregarFavorito,
-        eliminarFavorito,
-        limpiarFavoritos
-    }*/
 
-
-
-
-    /*useEffect(() => {
-        getOdontologos();
-    }, []);*/
 
     return (
         <GlobalContext.Provider value={{odontologos, favoritos ,cambiarTema ,tema , agregarFavorito, eliminarFavorito, limpiarFavoritos}}>
