@@ -18,6 +18,7 @@ const Favoritos = () => {
         console.log(favoritos),
         <div>
             <h1 className={styles.h1}>Favoritos</h1>
+            
         <div className={styles.Favoritos}>
             {favoritos.length > 0 ? (
                 favoritos.map((odontologo) => (

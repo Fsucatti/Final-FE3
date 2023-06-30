@@ -41,9 +41,11 @@ const Form = () => {
     setEmail(event.target.value);
     validEmail(event.target.value);
   };
+
   const message = () => (
     <div>Muchas gracias {name}, el correo {email} ha quedado registrado.</div>
   );
+  
   return (
     <div>
       <form className={styles.Form} onSubmit={onSubmit}>

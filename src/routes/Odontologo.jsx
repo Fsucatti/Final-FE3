@@ -10,7 +10,6 @@ function Odontologo() {
     const { odontologos } = useContext(GlobalContext);
     const currentOdontologo = odontologos.find(odontologo => odontologo.id === parseInt(id));
       
-
     return (
         <div>
             <h1 className={styles.h1}>Odontologo ID {currentOdontologo?.id} - {currentOdontologo?.name}</h1>

@@ -12,6 +12,7 @@ export default function BotonCambiarTema() {
     console.log(tema)
   }
 
+  
   return (
     <>
       <button  onClick={cambiarTema}>

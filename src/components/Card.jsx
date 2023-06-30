@@ -57,4 +57,5 @@ const Card = ({odontologo})  => {
     )
 }
 
+
 export default Card

@@ -11,7 +11,6 @@ import { Link } from 'react-router-dom';
 const Home = () => {
 
   const { odontologos } = useContext(GlobalContext);
-
   console.log(odontologos);
 
 
